@@ -45,6 +45,13 @@ nav a:active {
   /* background-color: red; */
 }
 
+.align_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .text_uppercase {
   text-transform: uppercase;
 }
@@ -55,13 +62,12 @@ nav a:active {
   position: relative;
 }
 
-.jumbo_content {
+/* .jumbo_content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
+} */
 #portfolio {
   background-color: purple;
 }
@@ -79,4 +85,24 @@ nav a:active {
   border-radius: 10px;
   height: 200px;
   margin-bottom: 30px;
+}
+
+#about {
+  background-color: #1ABC9C;
+  position: relative;
+  height: 400px;
+}
+
+.container_small {
+  width: 60%;
+  margin: 0 auto;
+  background-color: orange;
+  /* height: 300px; */
+}
+
+#about a.btn.btn_download {
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 20px;
 }
