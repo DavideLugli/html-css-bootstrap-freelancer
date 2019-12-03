@@ -1,0 +1,62 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  /* height: 60px; */
+  background-color: #2C3E50;
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 0.7em;
+  padding: 0.5em;
+}
+nav ul li a:hover {
+  color: #1ABC9C;
+}
+nav a {
+  color: white;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+text-decoration: none;
+color: white;
+}
+.container {
+  height: 100%;
+  line-height: 50px;
+  vertical-align: middle;
+  /* background-color: red; */
+}
+
+.text_uppercase {
+  text-transform: uppercase;
+}
+.width_70 {
+  width: 70%;
+}
+
+.jumbo {
+  background-color: red;
+  height: 400px;
+  position: relative;
+}
+
+.jumbo_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
