@@ -32,7 +32,17 @@ body {
 }
 
 .bg_green {
-  background-color: lightgreen;
+  background-color: #1ABC9C;
+}
+
+.title_big {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.p_white {
+  color: white;
+  font-size: 20px;
 }
 
 /* style header */
@@ -79,10 +89,62 @@ body {
   margin-top: 80px;
 }
 
-.jumbo_text {
-  background-color: green;
+.jumbo_content {
   width: 60%;
   margin: 0 auto;
+}
+
+.jumbo_content h1.title_big {
+  color: white;
+  font-size: 50px;
+}
+
+.jumbo_content img.main_icon {
+  width: 220px;
+}
+
+.title_separator {
+  width: 40%;
+  margin: 25px auto;
+  position: relative;
+}
+
+.title_separator::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.separator_line_left {
+  float: left;
+  width: 40%;
+  height: 1.5px;
+  margin-right: 5%;
+  background-color: white;
+  transform: translateY(10px);
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.separator_line_right {
+  float: left;
+  width: 40%;
+  height: 1.5px;
+  margin-left: 5%;
+  background-color: white;
+  transform: translateY(10px);
+}
+
+.jumbo_content .separator_icon {
+  width: 10%;
+  float: left;
+}
+
+.jumbo_content .separator_icon i.icon_white {
+  color: white;
+  font-size: 30px;
 }
 
 /* fine jumbo */
