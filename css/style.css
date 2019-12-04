@@ -4,9 +4,17 @@ body {
 
 .btn_green {
   background-color: #1ABC9C;
-  ;
   color: white;
   text-transform: uppercase;
+}
+
+.btn_white {
+  color: white;
+  background-color: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
 }
 
 .btn_green .glyphicon {
@@ -31,6 +39,14 @@ body {
   padding-bottom: 80px;
 }
 
+.margin_top_30 {
+  margin-top: 30px;
+}
+
+.margin_bottom_30 {
+  margin-bottom: 30px;
+}
+
 .bg_green {
   background-color: #1ABC9C;
 }
@@ -43,11 +59,15 @@ body {
 
 .p_white {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .color_dark {
   color: #2C3E50;
+}
+
+.color_white {
+  color: white;
 }
 
 /* style header */
@@ -107,6 +127,7 @@ body {
 .jumbo_content img.main_icon {
   width: 220px;
 }
+
 /* separatore */
 .title_separator {
   width: 100%;
@@ -127,7 +148,6 @@ body {
   margin: 0 5px;
 }
 
-
 /* sezione portfolio */
 #portfolio .separator_line {
   background-color: #2C3E50;
@@ -142,6 +162,7 @@ body {
 
 .box_portfolio img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .portfolio_overlay {
@@ -150,6 +171,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 10px;
 }
 
 .portfolio_overlay:hover {
@@ -173,32 +195,26 @@ body {
   display: block;
 }
 
-.align_center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* sezione about */
+#about a.btn_white:hover {
+  background-color: white;
+  color: black;
 }
 
-.text_uppercase {
-  text-transform: uppercase;
+#about a span {
+  margin-left: 6px;
 }
 
-#about {
-  background-color: #1ABC9C;
-  position: relative;
-  height: 400px;
+/* media queries */
+@media screen and (max-width: 768px) {
+  .wrapper_xs_100 {
+    width: 100%;
+  }
 }
 
-.container_small {
-  width: 60%;
-  margin: 0 auto;
-  background-color: orange;
-}
-
-#about a.btn.btn_download {
-  padding: 10px 8px;
-  border-radius: 5px;
-  border: 1px solid white;
-  font-size: 20px;
+@media screen and (min-width: 768px) {
+  .wrapper_md_60 {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
