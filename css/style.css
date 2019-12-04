@@ -2,59 +2,90 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-brand {
-  font-size: 2em;
-  font-weight: bold;
+.btn_green {
+  background-color: #1ABC9C;
+  ;
+  color: white;
+  text-transform: uppercase;
 }
 
-.navbar-default {
-  border: none;
+.btn_green .glyphicon {
+  vertical-align: text-top;
 }
 
-.ms_nav {
-  padding: 20px 0;
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
 }
 
-.navbar {
+.wrapper_60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.padding_top_80 {
+  padding-top: 80px;
+}
+
+.padding_bottom_80 {
+  padding-bottom: 80px;
+}
+
+.bg_green {
+  background-color: lightgreen;
+}
+
+/* style header */
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  z-index: 3;
   background-color: #2C3E50;
-}
-
-.navbar-default .navbar-brand {
-  color: white;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active {
-  color: white;
-}
-
-.navbar-default .navbar-nav li a {
-  color: white;
-  font-size: 1em;
+  font-size: 24px;
   font-weight: 700;
 }
 
-.navbar-default .navbar-nav li a:hover {
+.header_top a {
+  color: white;
+}
+
+.header_top a:hover,
+.header_top a:focus,
+.header_top a:active {
+  color: white;
+  text-decoration: none;
+}
+
+._menu li {
+  display: inline-block;
+}
+
+.header_top nav ul li a {
+  font-size: 0.6em;
+  padding: 10px;
+}
+
+.header_top nav ul li a:hover {
   color: #1ABC9C;
 }
 
-.navbar-default .navbar-toggle {
-  border: none;
-  background-color: #1ABC9C;
+/* stile jumbo */
+.jumbo {
+  padding: 80px 0;
+  margin-top: 80px;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:active,
-.navbar-default .navbar-toggle:focus {
-  border: none;
-  background-color: #148F77;
+.jumbo_text {
+  background-color: green;
+  width: 60%;
+  margin: 0 auto;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
-}
-
+/* fine jumbo */
 .align_center {
   position: absolute;
   top: 50%;
@@ -66,12 +97,11 @@ body {
   text-transform: uppercase;
 }
 
-.jumbo {
+/* .jumbo {
   background-color: red;
   height: 90vh;
   position: relative;
-}
-
+} */
 /* .jumbo_content {
   position: absolute;
   top: 50%;
