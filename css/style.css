@@ -234,6 +234,45 @@ body {
   font-size: 18px;
 }
 
+/* footer */
+.footer_top {
+  background-color: #2C3E50;
+}
+
+.footer_bottom {
+  background-color: black;
+  padding: 20px 0;
+}
+
+.footer_top h3 {
+  font-size: 24px;
+}
+
+.footer_top i {
+  height: 20px;
+  width: 20px;
+}
+
+.footer_top .link_social {
+  color: #fff;
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.footer_top .link_social:hover {
+  color: #2C3E50;
+  background-color: #fff;
+}
+
+.footer_top a.link_start {
+  color: #1ABC9C;
+}
+
+.footer_top a.link_start:hover {
+  color: #117863;
+}
+
 /* media queries */
 @media screen and (max-width: 768px) {
   .wrapper_xs_100 {
