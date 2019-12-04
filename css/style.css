@@ -240,7 +240,7 @@ body {
 }
 
 .footer_bottom {
-  background-color: black;
+  background-color: #1A252F;
   padding: 20px 0;
 }
 
@@ -271,6 +271,11 @@ body {
 
 .footer_top a.link_start:hover {
   color: #117863;
+}
+
+.footer_bottom .p_white {
+  font-size: 13px;
+  margin: 0;
 }
 
 /* media queries */
